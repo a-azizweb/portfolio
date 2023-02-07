@@ -1,6 +1,7 @@
 import React from 'react';
 import './Portfolio.css';
 import ProjectImage from '../../assets/project.jpg';
+import ProjectImage2 from '../../assets/project2.jpg';
 const Portfolio = () => {
   const data = [
     {
@@ -9,6 +10,13 @@ const Portfolio = () => {
       title: 'MERN Stack Ecommerce Website',
       github: 'https://github.com/a-azizweb/mern-ecommerce',
       demo: 'https://ecommerce-0rgq.onrender.com/',
+    },
+    {
+      id: 2,
+      image: ProjectImage2,
+      title: 'Construction Company Website in Reactjs',
+      github: 'https://github.com/a-azizweb/alaziz',
+      demo: 'https://alaziz.vercel.app',
     },
   ];
   return (
